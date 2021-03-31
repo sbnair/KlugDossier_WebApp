@@ -3,8 +3,8 @@ import './About.css';
 
 import AboutText from './AboutText';
 import CoreMember from './CoreMembers';
-import Advisors from './Advisors';
-import Partners from './Partners';
+//import Advisors from './Advisors';
+//import Partners from './Partners';
 
 const OverviewCompany = () => (
   <div className="main-page overview_company">
