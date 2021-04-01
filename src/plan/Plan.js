@@ -1,15 +1,19 @@
 import React from 'react';
-import Schedule from './Schedule';
-import Use from './Use';
+import Financial from './Financial';
+import Insurance from './Insurance';
+import NFT from './NFT';
 
 
 const Plan = () => (
   <div className="main-page plan">
     <section>
-      <Schedule/>
+      <Financial/>
     </section>
     <section>
-      <Use/>
+      <Insurance/>
+    </section>
+     <section>
+      <NFT/>
     </section>
   </div>
 );

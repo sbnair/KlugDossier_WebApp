@@ -1,49 +1,39 @@
-import React from 'react';
-import './Contact.css';
-import ReactQuill from 'react-quill';
-import theme from 'react-quill/dist/quill.snow.css';
-import data from './Contact.json';
+import React, { Component } from 'react';
 
-
-class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { text: '' };
-    this.handleChange = this.handleChange.bind(this);
-
-    this.modules = {
-      toolbar: [
-        [{ 'header': [1, 2, false] }],
-        ['bold', 'italic', 'underline','strike', 'blockquote'],
-        [{'list': 'ordered'}, {'list': 'bullet'}, {'indent': '-1'}, {'indent': '+1'}],
-        ['link', 'image'],
-        ['clean']
-      ],
-    };
-    this.formats = [
-      'header',
-      'bold', 'italic', 'underline', 'strike', 'blockquote',
-      'list', 'bullet', 'indent',
-      'link', 'image'
-    ];
-  }
-
-  handleChange(value) {
-    this.setState({ text: value })
-  }
-
+class Contact extends Component {
   render() {
+
+    if(this.props.data){
+      
+      //var email = this.props.data.email;
+      //var message = "Contact";//this.props.data.contactmessage;
+    }
+
     return (
-      <div className="main-page contact">
-        <section>
-          <ReactQuill theme="snow"
-                      value={this.state.text}
-                      modules={this.modules}
-                      formats={this.formats}
-                      onChange={this.handleChange} />
-        </section>
+<div className="main-page plan">      
+  <section>    
+      <div className="my-10">
+        <h1 className="text-left">Contact US</h1>
       </div>
-    )
+       <div className="container">
+           
+          <p>Email: team@polkadossier.com</p>
+
+          <p>Phone: </p>
+
+          <p>Address</p>
+
+          <p></p>
+  
+          <p></p>
+    
+           <p></p> 
+
+        </div>
+     
+    </section>
+  </div>  
+    );
   }
 }
 
