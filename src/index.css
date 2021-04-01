@@ -109,6 +109,16 @@ footer.footer {
     margin-left: 5px;
 }
 
+.content{
+    font-size: 14px;
+    color:white;
+    font-family: Helvetica;
+}
+
+.section{
+    background-image: linear-gradient(#70B8FA, #A83FED);
+}
+
 .bg-div{
    background:#333;
    overflow: hidden;
@@ -137,11 +147,14 @@ footer.footer {
 
 .main-page > section {
   padding: 2rem 1rem 1rem 1rem;
-  background-color: #eaeaea;
+  // background-color: #eaeaea;
 }
 
 .main-page > section > div.container {
   margin: 12px auto;
+  font-size: 14px;
+  color:black;
+  font-family: Helvetica;
 }
 
 

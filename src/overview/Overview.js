@@ -4,7 +4,7 @@ import Roadmap from './Roadmap';
 import VisionAndMission from './VisionAndMission';
 
 const Index = () => (
-  <div className="main-page index">
+  <div className="main-page index section">
     <section>
       <VisionAndMission/>
     </section>

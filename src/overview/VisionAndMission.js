@@ -3,12 +3,12 @@ import React from 'react';
 export default () => (
   <div className="container">
     <h2>Vision and Mission</h2>
-    <div className="row">
+    <div className="row content">
       <div className="col-md-12">
         <p>POLKA DOSSIER IN A NUT SHELL.</p>
       </div>
     </div>
-    <div className="row">
+    <div className="row content">
       <div className="col-md-4">
         <p>PolkaDossier strives to solve problems that many firms are facing with respect to raw
 data especially in the form of fetching clear and refined data needed for complex

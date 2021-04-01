@@ -54,7 +54,7 @@ class Navigator extends React.Component {
           <li><NavLink to="/ecosystem" activeStyle={{ color: 'orangered' }}>Ecosystem</NavLink></li>
           <li><NavLink to="/product" activeStyle={{ color: 'orangered' }}>Product</NavLink></li>
           <li><NavLink to="/usecases" activeStyle={{ color: 'orangered' }}>Use Cases</NavLink></li>
-          <li><NavLink to="/about" activeStyle={{ color: 'orangered' }}>About us</NavLink></li>
+          <li><NavLink to="/team" activeStyle={{ color: 'orangered' }}>Team</NavLink></li>
           <li><NavLink to="/contact" activeStyle={{ color: 'orangered' }}>Contact us</NavLink></li>
         </ul>
       </nav>
@@ -83,7 +83,7 @@ const App = () => (
         <Route exact path="/ecosystem" component={Ecosystem}/>
         <Route exact path="/product" component={Products}/>
         <Route exact path="/usecases" component={Plan}/>
-        <Route exact path="/about" component={About}/>
+        <Route exact path="/team" component={About}/>
         <Route exact path="/contact" component={Contact}/>
       </main>
       <Footer />
