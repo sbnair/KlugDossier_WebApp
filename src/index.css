@@ -100,7 +100,19 @@ footer.footer {
 }
 
 
+.logo-img{
+    float: right;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1px;
+    margin-left: 5px;
+}
 
+.bg-div{
+   background:#333;
+   overflow: hidden;
+}
 
 
 

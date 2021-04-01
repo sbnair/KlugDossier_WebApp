@@ -41,16 +41,24 @@ class Navigator extends React.Component {
   }
   render() {
     return (
+      
+      
+      
       <nav id="navigator" className={this.state.style || 'normal'}>
+        
+        <img className="logo-img" src={require('./logo.png')} width="60" height="60" alt="logo"  />
+            
         <ul className="container">
+         
           <li><NavLink to="/overview" activeStyle={{ color: 'orangered' }}>Overview</NavLink></li>
           <li><NavLink to="/ecosystem" activeStyle={{ color: 'orangered' }}>Ecosystem</NavLink></li>
-          <li><NavLink to="/products" activeStyle={{ color: 'orangered' }}>Product</NavLink></li>
+          <li><NavLink to="/product" activeStyle={{ color: 'orangered' }}>Product</NavLink></li>
           <li><NavLink to="/usecases" activeStyle={{ color: 'orangered' }}>Use Cases</NavLink></li>
           <li><NavLink to="/about" activeStyle={{ color: 'orangered' }}>About us</NavLink></li>
           <li><NavLink to="/contact" activeStyle={{ color: 'orangered' }}>Contact us</NavLink></li>
         </ul>
       </nav>
+      
     )
   }
 }
@@ -73,7 +81,7 @@ const App = () => (
         )}/>
         <Route exact path="/overview" component={Overview}/>
         <Route exact path="/ecosystem" component={Ecosystem}/>
-        <Route exact path="/products" component={Products}/>
+        <Route exact path="/product" component={Products}/>
         <Route exact path="/usecases" component={Plan}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/contact" component={Contact}/>

@@ -584,6 +584,14 @@ input[type="radio"] {
 
 input[type="checkbox"] { display: inline; }
 
+.logo-image{
+    width: 4px;
+    height: 4px;
+    border-radius: 5%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
 /* ------------------------------------------------------------------ */
 /* d. Grid
 ---------------------------------------------------------------------
