@@ -10,7 +10,7 @@ import Plan from './plan/Plan';
 import Contact from './contact/Contact';
 
 // Footer
-import FooterContent from './footer/FooterContent';
+//import FooterContent from './footer/FooterContent';
 
 import './index.css';
 
@@ -63,17 +63,11 @@ class Navigator extends React.Component {
   }
 }
 
-const Footer = () => (
-  <footer className="footer">
-    <div className="container">
-      <FooterContent/>
-    </div>
-  </footer>
-);
+
 
 const App = () => (
   <Router>
-    <div className="wrapper">
+    <div className="wrapper section">
       <Navigator />
       <main>
         <Route exact path="/" render={() => (
@@ -86,7 +80,7 @@ const App = () => (
         <Route exact path="/team" component={About}/>
         <Route exact path="/contact" component={Contact}/>
       </main>
-      <Footer />
+     
     </div>
   </Router>
 );

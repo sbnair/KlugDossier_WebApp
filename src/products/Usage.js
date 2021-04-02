@@ -5,6 +5,8 @@ export default () => (
     
     <h2><b>Data Feed and Oracles</b></h2>
 
+    <div className="content">
+
     <p>PolkaDossier’s Oracle node will be created to collect data from different producers (data providers) and validate it based on the request provided by consumers.</p>
 
     <p>A Reward and Fine Mechanism is provided in Oracle node.</p>
@@ -15,6 +17,7 @@ export default () => (
 
     <p>Data can be received in consumer side using smart contracts or with non-smart contract apps like legacy IT systems based on the adapter available from PolkaDossier.</p>
     
+    </div>
 
     <div>
         <img src={require('./PolkaDossierOffchain.png')} alt="" />

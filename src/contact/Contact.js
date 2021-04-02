@@ -10,18 +10,20 @@ class Contact extends Component {
     }
 
     return (
+     
 <div className="main-page plan">      
   <section>    
-      <div className="my-10">
-        <h1 className="text-left">Contact US</h1>
-      </div>
+      
+        <h2 className="text-left">Contact US</h2>
+      
        <div className="container">
-           
+         
+        <div className="content">   
           <p>Email: team@polkadossier.com</p>
 
           <p>Phone: </p>
 
-          <p>Address</p>
+          <p>Address: </p>
 
           <p></p>
   
@@ -29,10 +31,13 @@ class Contact extends Component {
     
            <p></p> 
 
+          </div> 
+
         </div>
      
     </section>
   </div>  
+
     );
   }
 }

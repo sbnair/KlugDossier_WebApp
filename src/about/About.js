@@ -8,12 +8,14 @@ import CoreMember from './CoreMembers';
 
 const OverviewCompany = () => (
   <div className="main-page overview_company">
+   <div className="section team"> 
     <section className="about-text">
       <AboutText/>
     </section>
     <section className="people core-member">
       <CoreMember/>
     </section>
+    </div>
    </div>
 );
 

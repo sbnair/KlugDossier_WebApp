@@ -2,7 +2,10 @@ import React from 'react';
 
 export default () => (
   <div className="container">
-    <h2><strong>- Team -</strong></h2>
+  
+    <h2>- Team -</h2>
+
+    <div className="content"> 
     <div className="row">
       <div className="col-md-12">
        
@@ -11,5 +14,7 @@ export default () => (
       </div>
       
     </div>
+  </div>  
+   
   </div>
 );

@@ -5,7 +5,7 @@ import NFT from './NFT';
 
 
 const Plan = () => (
-  <div className="main-page plan">
+  <div className="main-page plan section">
     <section>
       <Financial/>
     </section>

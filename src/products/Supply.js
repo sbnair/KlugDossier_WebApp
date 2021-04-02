@@ -5,6 +5,8 @@ export default () => (
   <div className="container">
     <h2>Polka Dossier Solution</h2>
     
+    <div className="content">
+
     <p>Data validation based on consumer requirements.</p>
 
     <p>Implementation of a decentralised storage mechanism to store and consolidate data received from different sources.</p>
@@ -14,8 +16,13 @@ export default () => (
     <p>On-chain/Off-chain continuous feeding of data to consumers.</p>
   
     <p>Prediction Market will benefit in a huge way as the converted data will be directly applicable to consumer based models like ANN, CNN, RNN, LTSM.</p>
+
+
+    </div>
     
     <p><b>POLKA DOSSIER ARCHITECTURE.</b></p> 
+
+
 
     <div>
         <img src={require('./PolkaDossier.png')} alt="" />

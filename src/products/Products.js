@@ -7,7 +7,7 @@ import Mechanism from './Mechanism';
 //import Value from './Value';
 
 const OverviewGoods = () => (
-  <div className="main-page overview_goods">
+  <div className="main-page overview_goods section">
     <section>
       <Supply/>
     </section>
