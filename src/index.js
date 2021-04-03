@@ -47,15 +47,17 @@ class Navigator extends React.Component {
       <nav id="navigator" className={this.state.style || 'normal'}>
         
         <img className="logo-img" src={require('./logo.png')} width="60" height="60" alt="logo"  />
+
+        <label className="headerText">POLKA DOSSIER</label>
             
         <ul className="container">
          
-          <li><NavLink to="/overview" activeStyle={{ color: 'orangered' }}>Overview</NavLink></li>
-          <li><NavLink to="/ecosystem" activeStyle={{ color: 'orangered' }}>Ecosystem</NavLink></li>
-          <li><NavLink to="/product" activeStyle={{ color: 'orangered' }}>Product</NavLink></li>
-          <li><NavLink to="/usecases" activeStyle={{ color: 'orangered' }}>Use Cases</NavLink></li>
-          <li><NavLink to="/team" activeStyle={{ color: 'orangered' }}>Team</NavLink></li>
-          <li><NavLink to="/contact" activeStyle={{ color: 'orangered' }}>Contact us</NavLink></li>
+          <li><NavLink to="/overview" activeStyle={{ color: '#70B8FA' }}>Overview</NavLink></li>
+          <li><NavLink to="/ecosystem" activeStyle={{ color: '#70B8FA' }}>Ecosystem</NavLink></li>
+          <li><NavLink to="/product" activeStyle={{ color: '#70B8FA' }}>Product</NavLink></li>
+          <li><NavLink to="/usecases" activeStyle={{ color: '#70B8FA' }}>Use Cases</NavLink></li>
+          <li><NavLink to="/team" activeStyle={{ color: '#70B8FA' }}>Team</NavLink></li>
+          <li><NavLink to="/contact" activeStyle={{ color: '#70B8FA' }}>Contact us</NavLink></li>
         </ul>
       </nav>
       
